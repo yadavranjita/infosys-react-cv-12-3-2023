@@ -1,0 +1,72 @@
+frontend-denote -presentation-design-ned html,css,effeft-javascript
+website frontend-library, framework react 1js and 2native--hybrid app development
+react-nodejs-services,packages
+react-library-collection of code -use-frontend-ui/ux user interface ux=user experience
+e.g. feel website use , timepass bcs website run that is user interface
+when interact-links,content,graphic,css ,design-user experience
+code base-html,css-html-web /application chahine script-hypertext markup lang-
+meaning-structure code, content design provide garne script link over link position
+file-text-structure-multimedia -html
+.html,.shtml,.xml
+tags-special code block inside a <tag>
+react-component-angle bracket
+tag-small letter
+component-capital letter
+tag-building structure
+web/web application-starting -file-index file
+code-organize-folder create-
+website - html in a browser 
+browser-url lekhne then browse
+url-file point -organize
+file-index.html-firat file loaded by server-default configured
+htm 1.html 2.html5 use 2
+latest compalitlity rendered from every browser
+start-html
+doctype html-tag type
+tag type 1.open singleton 2.closed/paired tag
+html tag
+juntag ko pair xaina-open tag e.g. <!Doctype> <meta/><img/><hr/><br/><input/><link/>
+paired e.g. <html>//parent tags
+//inner html/childrens
+</html>
+<html></div><html></html><body></html><table></html><p></html><form></html>
+inner html-children
+htmlis parent of  1.head 2. body childs
+head and body -siblings
+head-1.meta -jati wota pani lekhna sakxau
+harek tags ma -attribute
+tags ko property define garxa
+aattribute-optional<tag attribute><tag [attribute] [attribute]>
+paired 
+single
+charset,name,content-attribute-of meta
+lang-att-html
+attribute 1.generic:can be supported by multiple tags 2.specific:can support by only few tags
+link-tag, rel-attribute:relation  another href:hyoer referncing, e.g.css.icons link
+rel-no meaning in body
+selected-attribute-dropdown-select tag-vitra-option
+selected,rel,content.src,value,type,checked,content,lang,checked,href,src,value,type attributes-specififc tags thorai le matrai support garxa
+generic:id,name,style,class,data-*,title,alt
+html-file-live sercer
+head content-design load tags-mreta,title style link script(no but in body)
+meta-information page ko html5 rule-1.content utf supported-char encoding
+responsive-
+viewport-defintion-browser-device-phone-martwatch,tv device identify garna viewport scaling
+3 rd party implementation-share-fb-content-body content hea target garxa, seo,serach engine optimization,if google,alexa-amazon
+services send to thord party
+xutai content send so, use meta content -representation title-name set ganu 
+link-external css 1 2. shortcut icond-fabicons
+external,internal javascript-
+visible part-body tag.browser ma render
+unused tag-never use on html no code clean //comment gara<!-- aa-->
+tags 1,title set-heading <h1 to h6> tag-tabs
+<h1>H1</h1>
+<h1>H2</h1>
+ways od design is different
+<h4>H2</h1>
+<strong>H2</h1>
+<b>H2</h1>
+<p style="font-weight:bold;">H2</h1> all same result
+tag -suitable -by tag defintion -reference-mdn web docs or w3schools html reference
+a tag-down;load-chrome-about-version
+//

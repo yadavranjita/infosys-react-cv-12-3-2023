@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;  
+}
+.title-aboutUs-1{
+    text-align: center;
+}
+.aboutUs-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutUs-image-1{
+    width: 100%;
+    width: 1330px;
+    height: 300px;
+}
+.aboutUs-image-2{
+    padding: 100px;
+}

@@ -1,0 +1,39 @@
+@media media-type and (media-feature){
+    /** css **/
+}
+/*
+all,screen,print,speech
+*/
+body{
+    background-color: #ccc;
+}
+.container{
+    width: 100%;
+}
+@media screen{
+    /** css for screens**/    
+}
+@media (min-width:767px){
+    .container{
+        margin-right: 10px;
+        margin-left: 10px;
+        background-color: #ff0000;
+    }
+    /**Mobile devices**/  
+}
+@media (min-width:768px) and (min-width:1023px){
+    /**Tablet view**/  
+    .container{
+        margin-right: 20px;
+        margin-left: 20px;
+        background-color: #ff00ff;
+    }
+}
+@media (min-width:1024px){
+    /**Desktop view**/ 
+    .container{
+        margin-right: 30px;
+        margin-left: 30px;
+        background-color: #ffff00;
+    } 
+}

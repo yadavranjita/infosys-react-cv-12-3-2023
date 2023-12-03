@@ -1,0 +1,38 @@
+
+h2 {
+    color: red;
+}
+.containerGridLayout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.itemGridLayout {
+    grid-column: span 2;
+}
+.containerFlexLayout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemFlexLayout {
+    flex: 1;
+}
+  /* Styling for demonstration purposes */
+  .containerDiv {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.boxDiv {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.highlightSpan {
+    color: red;
+    font-weight: bold;
+}

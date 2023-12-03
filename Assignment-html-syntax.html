@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+
+    <!-- Inline CSS -->
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+          /* Styling for demonstration purposes */
+          table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Styling for demonstration purposes */
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- Internal CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="https://example.com/styles.css">
+</head>
+<body>
+    <!-- Inline -->
+    <p style="color: blue; font-size: 36px;">Hello, World! This is internal css. It's directly within the HTML document</p>
+     <!-- Your HTML content goes here -->
+     <h1>Hello, World! This is inline css. It's part of the same HTML file</h1>
+     <h2>Hello, World! This is external css. It places CSS in a separate file and then link that file to HTML document</h2>
+     <!-- <p>This is a simple example with internal styles.</p> -->
+----------------------------------HTML Grid Layout-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <!-- HTML Grid Layout -->
+    <div style="display: grid; grid-template-columns: auto auto auto;">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+    </div>
+    <div class="containerGridLayout">
+        <div class="itemGridLayout">Item 1</div>
+        <div class="itemGridLayout">Item 2</div>
+        <div class="itemGridLayout">Item 3</div>
+        <!-- More items... -->
+    </div>
+----------------------------------HTML Flex Layout-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <!-- HTML Flex Layout -->
+    <div style="display: flex; justify-content: space-between;">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div>
+    <div class="containerFlexLayout">
+        <div class="itemFlexLayout">Item 1</div>
+        <div class="itemFlexLayout">Item 2</div>
+        <div class="itemFlexLayout">Item 3</div>
+        <!-- More items... -->
+    </div>
+    
+    <!-- ----------------------------------HTML Flex Layout------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- HTML Elements -->
+     <!-- <div> -->
+        <!-- <p>This is a paragraph.</p> -->
+        <!-- <img src="image.jpg" alt="Image"> -->
+        <!-- <a href="https://example.com">Link</a> -->
+        <!-- <table> -->
+            <!-- <tr> -->
+                <!-- <td>Row 1, Cell 1</td> -->
+                <!-- <td>Row 1, Cell 2</td> -->
+            <!-- </tr> -->
+            <!-- <tr> -->
+                <!-- <td>Row 2, Cell 1</td> -->
+                <!-- <td>Row 2, Cell 2</td> -->
+            <!-- </tr> -->
+        <!-- </table> -->
+        <!-- <form action="submit-form.php" method="post"> -->
+            <!-- Form elements go here -->
+        <!-- </form> -->
+    <!-- </div>  -->
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <div class="containerDiv">
+        <h1>Container with Divs</h1>
+
+        <div class="boxDiv">
+            <p>This is a box inside the container.</p>
+        </div>
+
+        <div class="boxDiv">
+            <p>This is another box inside the container.</p>
+        </div>
+    </div>
+    <p>This is a paragraph with p tag.</p>
+    <p>This is a <span class="highlightSpan">highlighted</span> word in a paragraph using span tag.</p>
+    <!-- The img tag with attributes -->
+    <img src="https://c8.alamy.com/comp/TACMXH/three-red-rose-flower-buds-and-petals-from-a-vase-TACMXH.jpg" alt="An example image" width="300" height="200" >
+    <p>This is an image with img tag.</p>
+    <!-- The a tag with href attribute -->
+    <a href="https://www.example.com" target="_blank">This is a link with a tag.Visit Example.com</a>
+    
+    <!-- The table tag with nested tags for rows and cells -->
+    <p>This is an table with table tag.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ram</td>
+                <td>20</td>
+                <td>Ktm</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+     <!-- The form tag with various form elements -->
+     <p>This is an form with form tag.</p>
+     <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

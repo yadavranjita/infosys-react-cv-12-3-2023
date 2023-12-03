@@ -1,0 +1,14 @@
+responsive design-media query, unique to design, write css
+web //responsive design//media query
+//container/container-fluid
+//row=>
+//column => equal parts,12 equal
+Breakpoints
+xs->default, extra small devices<576px smart watch/v small devices
+sm->default,small devices>=576px and <768px mobile phones/lower end
+md->medium devices>=768px and <992px higher phones/lower tablets
+lg->large devices>=992px and <1200px higher tablets/lower laptop
+xl->extra large devices>=1200px and <1400px higher laptops
+xxl->extra extra large devices>=1400px retina display
+container-row-"col-sm-12 col-md-6 col-lg-3-container-row-"col-sm-12 col-md-6 col-lg-3-
+non-responsive design

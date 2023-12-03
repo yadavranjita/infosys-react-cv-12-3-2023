@@ -1,0 +1,32 @@
+react-1-lecture-2
+html lehkne kasrai, k banaune
+identify
+body tag-content
+web application-content, arrangment depend on design 
+divide 3 componenets: 1.top section-menu header 2.proiortise section-banner/hero 
+sliders,animation,effect 3.all content,link wisr farak hunxa
+4.last part common-footer
+1.header
+2.banner/her
+3.content
+4.footer
+website ma multiple pages hunxa
+daraz-
+website 1.natue 2. what sell
+3. 4.goodwill
+5.brand
+kasrai lekhne
+1grid layout: identify multiple rows gris 2.flex euta rows ma many colums 
+sanga kam garne
+website 1. static:seo garna lai  2. dynamic: content backend bata change garna milxa
+1. wireframe design or prototype figma ma desin dinxa
+2.slicing design->html conversion
+kun thau ma div or section
+banne 1. banner 2.menu
+section breakdown
+<secion>h3 div<section/>
+logic.. div
+table -rows ,cols -cell-
+grid-row.col,cell
+absolute: full url, relative:current file path -path ko denotion ko lagi
+design 1.inline

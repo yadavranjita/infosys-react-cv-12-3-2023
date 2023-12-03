@@ -1,0 +1,20 @@
+css
+inline css-avoid garne code heavy banauxa
+conditions:
+1.server email send design garda
+2.third party blogging develop
+html:inline
+hexcode rgb 
+red 0-F, 00-FF 0-255
+green 0-F, 00-FF, 0-255
+blue 0-F, 00-FF,0-255
+alpha 0-F, 00-FF,0-255
+#000000-black color
+#FF0000-red
+#00FF00-green
+#0000FF-blue
+#ffffff-white
+opacity
+padding: 2px
+style
+/**/
